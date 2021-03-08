@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "selected_menu_tab"

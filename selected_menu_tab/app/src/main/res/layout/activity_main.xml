@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8"
+    >
+
+    <TextView
+        android:id="@+id/makingAccount"
+        android:layout_width="410dp"
+        android:layout_height="90dp"
+        android:background="@drawable/border_layout"
+        android:ems="10"
+        android:gravity="center"
+        android:text="선택한 메뉴"
+        android:textSize="45sp"
+
+        >
+
+    </TextView>
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="20dp"
+        android:src="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_2"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="-170dp"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/ic_launcher_background"
+        android:background="@drawable/border_2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:text="메뉴명"
+        android:textSize="25sp"
+        android:gravity="center"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_2"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-220dp"
+        android:layout_marginLeft="0dp"
+        android:text="기본"
+        android:textSize="25sp"
+        android:gravity="left"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="250dp"
+        android:text="3,500원"
+        android:textSize="25sp"
+        android:gravity="left"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:text="추가 옵션"
+        android:textSize="25sp"
+        android:gravity="left"
+        ></TextView>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="칠리소스 추가 +1,000원"
+        android:textSize="20sp"></RadioButton>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="탕수소스 추가 +1,000원"
+        android:textSize="20sp"></RadioButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/border_2"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="수량"
+        android:textSize="30sp"
+        android:layout_marginTop="-60dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="1개"
+        android:layout_marginLeft="290dp"
+        android:textSize="30sp"
+        android:layout_marginTop="-50dp"
+        ></TextView>
+
+
+
+    <Button
+            android:id="@+id/signin"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:gravity="center"
+            android:text="                     주문하기      9,999원"
+            app:backgroundTint="#3F51B5">
+
+        </Button>
+
+    <ImageButton
+        android:id="@+id/minus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-125dp"
+        android:layout_marginLeft="250dp"
+        app:srcCompat="@android:drawable/menu_frame" />
+
+    <ImageButton
+        android:id="@+id/plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-27dp"
+        android:layout_marginLeft="350dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+</LinearLayout>
